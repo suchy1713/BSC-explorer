@@ -1,0 +1,392 @@
+:root {
+  --everything: #2b2a28;
+  --everythingmedium: #242321;
+  --everythingdark: #1f1e1c;
+  --everythinglight: #42413e;
+  --light: #575757;
+  --lightdark: #4d4d4d;
+  --second: #5e4d28;
+  --second-light: #96783b;
+}
+
+.div-card-bg {
+  background-color: var(--everythingmedium);
+}
+
+.card-header {
+  border-bottom: 2.5px solid var(--second);
+  text-align: left;
+}
+
+.card-footer {
+  border-top: 2.5px solid var(--second);
+  text-align: left;
+}
+
+.main-tab-content {
+  padding: 10px 10px;
+}
+
+.my-tab-content {
+  height: 100vh;
+}
+
+hr {
+  background-color: var(--second);
+  margin: 3px 40px 6px 40px;
+  height: 1.5px;
+}
+
+#sidebar {
+    background-color: var(--everythingdark);
+    position: fixed;
+    width: 350px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.DayPickerKeyboardShortcuts_buttonReset{
+  display: none;
+}
+
+.form-label {
+  font-size: 12;
+  color: #bdbdbd;
+}
+
+input {
+  color: #bdbdbd;
+}
+
+.Select--multi .Select-value {
+  color: #bdbdbd;
+  border: 0px solid rgba(31, 30, 28, 1);
+  background-color: var(--everythinglight);  
+}
+
+.Select--multi .Select-value-icon {
+  border-right: 0px solid rgba(31, 30, 28, 1);
+}
+
+.Select--multi .Select-value-icon:hover {
+  background-color: var(--everythingdark);
+  color: var(--second-light)
+}
+
+.is-focused:not(.is-open)>.Select-control {
+  border-color: var(--light);
+  box-shadow: none;
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: var(--everythingmedium);
+  color: #bdbdbd;
+  border-color: var(--light);
+  cursor: pointer;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: #bdbdbd;
+}
+
+.filter-group-card {
+  padding: 7px 10px 0px 10px !important;
+}
+
+.VirtualizedSelectFocusedOption {
+  background-color: var(--everythingdark);
+  color:#bdbdbd;
+  font-weight: 400;
+}
+
+.VirtualizedSelectSelectedOption {
+  font-weight: 400;
+}
+
+.VirtualizedSelectOption {
+  text-align: center;
+}
+
+.dash-dropdown {
+  margin-bottom: 0.9rem;
+}
+
+.DateRangePicker {
+  margin-bottom: 0.9rem;
+}
+
+.content {
+    margin-left: 353px;
+    margin-right: 4px;
+}
+
+.sidebar-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-elem {
+  display: inline-block;
+}
+
+.tab-content {
+  padding: 0px 0px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 0px;
+}
+
+.nav-item:hover {
+  transform: scale(1.03);
+  transition: all 0.15s;
+}
+
+.tab-icon {
+  width: 28px;
+  height: 28px;
+  margin: 3px;
+}
+
+.filters-tab-content {
+  padding: 10px 10px !important;
+}
+
+.filter-group-title {
+  text-align: center;
+}
+
+.aspect-ratio-box {
+  height: 0;
+  overflow: hidden;
+  padding-top: 64.762%;
+  background: white;
+  position: relative;
+}
+.aspect-ratio-box-inside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+    border-radius: 0 !important;
+  }
+
+.tabs-5 {
+  width: 20% !important;
+}
+
+.tabs-4 {
+  width: 25% !important;
+}
+
+img {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.SingleDatePicker {
+  width: 100%;
+  height: 36px;
+  margin-bottom: 0.9rem;
+}
+
+.SingleDatePickerInput {
+  width: 100%;
+  height: 36px;
+  border: none
+}
+
+.SingleDatePicker_picker {
+  top: 0px !important;
+  position: relative;
+}
+
+.DayPicker_transitionContainer, .DayPicker {
+  width: 310px !important;
+}
+
+.DayPicker > div > div {
+  width: 310px !important;
+}
+
+.DateInput {
+  width: 100%;
+  height: 36px;
+}
+
+.DateInput_input {
+  height: 36px;
+  background-color: var(--everythingmedium);
+  color: #bdbdbd;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  border: 0.5px var(--light) solid;
+}
+
+.CalendarMonth_caption {
+  color: #bdbdbd;
+  font-weight: 400;
+}
+
+.DayPicker_focusRegion, .DayPickerNavigation_button,
+.DayPickerNavigation_svg__horizontal, .CalendarMonth,
+.DayPicker, .CalendarMonthGrid,
+.DayPickerNavigation_button:hover,
+.DayPickerNavigation_button:focus,
+.DayPickerNavigation_button:active {
+  background-color: var(--everythingmedium);
+  color: #bdbdbd;
+  border: none;
+}
+
+.CalendarDay {
+  background-color: var(--everythingmedium);
+  color: #bdbdbd;
+  border: none
+}
+
+.CalendarDay:hover {
+  background-color: var(--everythingdark);
+  border: none;
+}
+
+.CalendarDay__outside {
+  background-color: var(--everythingmedium);
+  border: none;
+  color: var(--light);
+}
+
+.CalendarDay__blocked_out_of_range, .CalendarDay__blocked_out_of_range:hover{
+  background-color: var(--everythingmedium);
+  border: none;
+  color: var(--everything)
+}
+
+.CalendarDay__selected {
+  background-color: var(--everythingdark);
+  border-bottom: 2.5px var(--second) solid;
+}
+
+.DateInput_fangShape {
+  fill: var(--everythingmedium);
+  display: none;
+}
+
+.DateInput_fangStroke {
+  stroke: var(--light);
+  display: none;
+}
+
+*[data-dash-is-loading="true"]{
+  opacity: 0.4;
+}
+
+.input {
+    margin-bottom: 8px;
+}
+
+.rc-slider-rail {
+    background-color: var(--everythinglight);
+}
+
+.rc-slider-track {
+    background-color: var(--second);
+}
+
+.rc-slider-handle:hover {
+    border-color: var(--second);
+}
+
+.rc-slider-tooltip-inner {
+    color: #cdcdcd;
+    background-color: var(--lightdark);
+    box-shadow: 0 0 2px var(--lightdark);
+}
+
+.rc-slider-handle {
+    border: solid 3px var(--second);
+    background-color: #999999;
+    outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--everythingmedium); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--light); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #737373; 
+}
+
+.my-cards {
+  column-count: 2;
+}
+
+.plot-card-title {
+  font-size: 16px;
+}
+
+.plot-card-subtitle {
+  font-size: 12px;
+}
+
+.text-input {
+    cursor: text;
+}
+
+@media screen and (max-width:1400px) {
+  .plot-card-title {
+    font-size: 14px;
+  }
+  
+  .plot-card-subtitle {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .my-cards {
+    column-count: 1;
+  }
+}
+
+@media screen and (max-width:1200px) {
+    #sidebar {
+        width: 100%;
+        position: relative;
+        bottom: auto;
+    }
+
+    .content {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: auto;
+    }
+
+    .my-tab-content {
+      height: auto;
+    }
+  }
